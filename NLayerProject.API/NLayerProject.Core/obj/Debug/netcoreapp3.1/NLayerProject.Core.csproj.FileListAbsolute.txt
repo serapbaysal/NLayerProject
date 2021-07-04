@@ -1,0 +1,9 @@
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\bin\Debug\netcoreapp3.1\NLayerProject.Core.deps.json
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\bin\Debug\netcoreapp3.1\NLayerProject.Core.dll
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\bin\Debug\netcoreapp3.1\NLayerProject.Core.pdb
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.csprojAssemblyReference.cache
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.AssemblyInfoInputs.cache
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.AssemblyInfo.cs
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.dll
+C:\Users\serap\source\repos\NLayerProject\NLayerProject.API\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.pdb
