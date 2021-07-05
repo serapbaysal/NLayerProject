@@ -15,7 +15,7 @@ namespace NLayerProject.Data.Repositories
         private readonly DbSet<TEntity> _dbSet;
        
 
-        public Repository(DbContext context)
+        public Repository(AppDbContext context)
         {
             _context = context;   // veri tabanına erişilir
             _dbSet = context.Set<TEntity>(); // tablolara erişilir
@@ -32,9 +32,9 @@ namespace NLayerProject.Data.Repositories
 
         }
 
-        public IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> predicate)
+        public async Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate)
         {
-            return _dbSet.Where(predicate);
+            return await _dbSet.Where(predicate).ToListAsync();
             
         }
 
