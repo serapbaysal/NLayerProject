@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NLayerProject.Core.UnitOfWorks;
 using NLayerProject.Data;
+using NLayerProject.Data.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,10 +33,14 @@ namespace NLayerProject.API
 
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString());
+                options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString(),o => { o.MigrationsAssembly("NLayerProject.Data"); }
+                    );
             });
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
         }
+        
        
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
